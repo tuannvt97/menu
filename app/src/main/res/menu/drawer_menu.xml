@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnEmail"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="Email " />
+        <item
+            android:id="@+id/mnListdevices"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="List of devices " />
+        <item
+            android:id="@+id/mnUpdateinformation"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="Update information " />
+        <item
+            android:id="@+id/mnLogout"
+            android:icon="@drawable/ic_menu_black_24dp"
+            android:title="Logout " />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/mnShare"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+            <item
+                android:id="@+id/mnSend"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Send" />
+            <item
+                android:id="@+id/mnSleep"
+                android:icon="@drawable/ic_airline_seat_flat_black_24dp"
+                android:title="Sleep" />
+        </menu>
+
+    </item>
+</menu>
